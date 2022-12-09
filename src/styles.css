@@ -1,0 +1,138 @@
+.container {
+    display: flex;
+    justify-content: center;
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    height: 70%;
+    /* height: 800px; */
+}
+
+.slider-outter{
+    width: 1000px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:right;
+    overflow:hidden;
+    white-space: nowrap;
+    position: relative;
+    /* display: block; */
+    /* display: block; */
+    /* position: absolute; */
+}
+
+.slider-inner{
+    /* bio je relative */
+    position: relative;
+    float:right;
+    height: 50%;
+    display: block;
+}
+
+ /* .slider-inner{
+    position: relative;
+    line-height: 210px;
+}  */
+
+.slide-item{
+  border-radius: 5%; 
+  box-sizing: border-box;
+  margin: 2px;
+  height:98%;
+  /* ovo 3 dodano */
+  /* float:left;
+  display:block;
+  width: auto; */
+}
+
+/* .slider-inner{
+    position: absolute;
+    height: 420px;
+    display: block;
+    left: -10;
+    left: -10px;
+    overflow: hidden;
+    right: 700px;
+     top: 200px; 
+    margin: 0 auto;
+    width: 1400px;
+}
+
+.slide-item{
+    width: auto;
+    height: 200px;
+    border-radius:10px;
+    padding:5px;
+    float:left;
+    display:block;
+} */
+
+/* .slider-inner img{
+    border-radius: 5%; 
+  box-sizing: border-box;
+  margin: 2px;
+  height:98%;
+} */
+
+.right-div{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+    float: left;
+    padding-left: 20px;
+}
+
+h1{
+    color: 	#1964a5;
+    margin-top: 0;
+}
+
+p{
+    line-height: 30px;
+}
+
+.arrows{
+    position: relative;
+    position: absolute;
+    bottom: 20%;
+    right: 0px;
+    margin: 4px 2px 0px 0px;
+    padding-right: 15px;
+}
+
+.arrow-left {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #4682B4;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    margin-bottom: 4px;
+    background-color: white;
+}
+
+.arrow-left:hover{
+    cursor: pointer;
+}
+
+.arrow-right {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #4682B4;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    background-color: white;
+}
+
+.arrow-right:hover{
+    cursor: pointer;
+}
+
+
+
